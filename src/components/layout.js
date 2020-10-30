@@ -8,10 +8,12 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import {
+  Box
+} from "@chakra-ui/core"
 import Header from "./header"
-import "./layout.css"
-
+// import "./layout.css"
+import "../assets/css/layout.css"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -24,25 +26,14 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    <Box>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
-        }}>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
-      </div>
-    </>
+      <Box px={{ md: 24, sm: 3 }} py={1} pb={10} minHeight="70vh" bg="teal.500" flex alignItems="center">
+        <Box bg="white" style={{ boxShadow: "5px 5px 10px rgba(0,0,0, .1), -5px -5px 10px rgba(0,0,0, .1)", marginTop: "-4rem" }} w="100%" p={8} rounded="lg" border="0px" mt={-12} boxShadow="xl">
+          {children}
+        </Box>
+      </Box>
+    </Box>
   )
 }
 

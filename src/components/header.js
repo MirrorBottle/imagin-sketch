@@ -1,34 +1,18 @@
-import { Link } from "gatsby"
+
 import PropTypes from "prop-types"
 import React from "react"
+import Menu from "./menu"
+import {
+  Flex,
+  Text,
 
+} from "@chakra-ui/core"
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+  <Flex bg="white" w="100%" px={{ md: 20, sm: 3 }} py={20} flexDir="column" alignItems="center" justifyContent="center" flex mb={4}>
+    <Text fontSize="3.5rem" pl={4} color="teal.500" fontWeight="bold" textAlign="center">{siteTitle}</Text>
+    <Text fontSize="1.6rem" color="gray.500" ><i>Sebuah tempat untuk menaruh ceritamu.</i></Text>
+    <Menu />
+  </Flex>
 )
 
 Header.propTypes = {

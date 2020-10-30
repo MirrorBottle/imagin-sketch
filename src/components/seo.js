@@ -27,7 +27,7 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-
+  console.log(site)
   return (
     <Helmet
       htmlAttributes={{
@@ -39,6 +39,10 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `keywords`,
+          content: "cerita, cerpen, blog, review",
         },
         {
           property: `og:title`,
