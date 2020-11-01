@@ -27,7 +27,6 @@ function SEO({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
-  console.log(site)
   return (
     <Helmet
       htmlAttributes={{
@@ -77,7 +76,9 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <meta name="google-site-verification" content="jYy3nBtkXXwGTOLmpAiPur6sU41ztPqeJQUPUUmB0wU" />
+    </Helmet>
   )
 }
 
