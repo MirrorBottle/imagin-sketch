@@ -45,6 +45,10 @@ function SEO({ description, lang, meta, title }) {
           content: "cerita, cerpen, blog, review",
         },
         {
+          property: `google-site-verification`,
+          content: `jYy3nBtkXXwGTOLmpAiPur6sU41ztPqeJQUPUUmB0wU`,
+        },
+        {
           property: `og:title`,
           content: title,
         },
