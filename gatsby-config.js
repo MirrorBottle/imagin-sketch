@@ -1,6 +1,4 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`
-})
+
 
 module.exports = {
   siteMetadata: {
@@ -30,7 +28,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         // The property ID; the tracking code won't be generated without it
-        trackingId: process.env.GA_TRACKING_ID,
+        trackingId: "UA-181786668-1",
       },
     },
     {
@@ -45,11 +43,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `ImaginSketch`,
+        short_name: `imaginsketch`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#319795`,
+        theme_color: `#319795`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
