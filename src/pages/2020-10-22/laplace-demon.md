@@ -1,9 +1,9 @@
 ---
 path: "/laplace-demon"
-date: "2020-10-31"
+date: "2020-10-22"
 title: "Laplace's Demon"
 author: "Bayu Setiawan"
-tags: "Slice of Life"
+tags: "Slice of Life, Mystery"
 ---
 
 Ada sesuatu di sebelahku. Tergeletak begitu saja, aku tidak tahu milik siapa. Seikat bunga berkelopak biru gelap, berkebun bukanlah hobiku dan aku tidak tahu apa namanya. Walau begitu, entah kenapa melihatnya memberiku perasaan tenang yang aneh, tidak, perasaan semacam nostalgia. Nostalgia? Tentang apa? Ini pertama kalinya aku melihat tanaman ini. Mengambilnya, aku sendiri tidak paham dengan apa yang kulakukan.

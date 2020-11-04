@@ -1,9 +1,9 @@
 ---
 path: "/hak-bahagia"
-date: "2020-10-29"
+date: "2020-10-27"
 title: "Hak Bahagia"
 author: "Bayu Setiawan"
-tags: "Slice of Life"
+tags: "Slice of Life, Romance, Mary"
 ---
 
 Tidak masuk. Aku memungut kaleng itu dan membuangnya seperti orang pada umumnya. Terlalu cepat untuk dibilang malam, walau begitu matahari telah menghilang. Jelas sekali aku pulang telat. Semua berkat kecerobohan seseorang dan kesalahan orang lainnya, menyusun dokuemn anggaran klub kecil seharusnya tidak susah. Jalan ini adalah yang terpendek, karenanya jarang kulewati. Melalui taman yang seharusnya sudah sepi akan suara anak kecil, dua ayunan berantai karat yang seharusnya sudah kosong. Seharusnya, tapi tidak. Masih ada seorang bocah, salah satu ayunan tidak pula kosong. Mempercepat langkah, aku menghampiri anak yang telah melemparkan sesuatu dari tangan kanannya.

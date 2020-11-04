@@ -12,7 +12,7 @@ import {
   Box
 } from "@chakra-ui/core"
 import Header from "./header"
-// import "./layout.css"
+import Footer from "./footer"
 import "../assets/css/layout.css"
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -33,6 +33,7 @@ const Layout = ({ children }) => {
           {children}
         </Box>
       </Box>
+      <Footer siteTitle={data.site.siteMetadata?.title || `Title`} />
     </Box>
   )
 }

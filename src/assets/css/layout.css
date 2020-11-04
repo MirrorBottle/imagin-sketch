@@ -2,3 +2,28 @@
     line-height: 28px;
     margin-bottom: 1.2rem;
 }
+#header-title {
+    cursor: pointer;
+    transition: .2s;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#header-title:hover {
+    transform: scale(1.05);
+}
+.drawer-menu {
+    transition: .2s;
+    cursor: pointer;
+}
+.drawer-menu:hover {
+    background: #319795;
+}
+.drawer-menu:hover p {
+    color: #fff!important;
+}
+.stories-card {
+    transition: .2s;
+}
+.stories-card:hover {
+    box-shadow: none;
+}
