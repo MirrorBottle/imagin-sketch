@@ -23,8 +23,8 @@ function Header({ siteTitle }) {
 
   return (
     <Flex bg="white" w="100%" px={{ md: 20, sm: 3 }} py={20} flexDir="column" alignItems="center" justifyContent="center" flex mb={4}>
-      <Text onClick={onOpen} fontSize="3.5rem" pl={4} color="teal.500" id="header-title" fontWeight="bold" textAlign="center">{siteTitle}</Text>
-      <Text fontSize="1.6rem" color="gray.500" textAlign="center" ><i>Sebuah tempat untuk menaruh ceritamu. Klik di atas untuk lihat menu!</i></Text>
+      <Text onClick={onOpen} fontSize="3.5rem" color="teal.500" id="header-title" fontWeight="bold" textAlign="center">{siteTitle}</Text>
+      <Text fontSize={{ md: "1.6rem", base: "1.3rem", lg: "1.6rem" }} color="gray.500" textAlign="center" ><i>Sebuah tempat untuk menaruh ceritamu. <br />Klik di atas untuk lihat menu!</i></Text>
       <Drawer
         isOpen={isOpen}
         placement="right"
@@ -46,10 +46,10 @@ function Header({ siteTitle }) {
                 <Box h="100%" w="100%" pl={5} d="flex" flexDirection="column" justifyContent="center">
                   <Text color="teal.500" fontSize="1.5rem">
                     Home
-                </Text>
-                  <Text color="gray.500" fontSize="1rem">
+                  </Text>
+                  <Text color="gray.500" fontSize="1rem" d={{ base: "none", md: "block" }}>
                     Kembali ke halaman utama
-                </Text>
+                  </Text>
                 </Box>
               </Box>
             </Link>
@@ -60,7 +60,7 @@ function Header({ siteTitle }) {
                   <Text color="teal.500" fontSize="1.5rem">
                     Tentang
                 </Text>
-                  <Text color="gray.500" fontSize="1rem">
+                  <Text color="gray.500" fontSize="1rem" d={{ base: "none", md: "block" }}>
                     Apa itu ImaginSketch
                 </Text>
                 </Box>
@@ -72,10 +72,10 @@ function Header({ siteTitle }) {
                 <Box h="100%" w="100%" pl={5} d="flex" flexDirection="column" justifyContent="center">
                   <Text color="teal.500" fontSize="1.5rem">
                     Cerita
-                </Text>
-                  <Text color="gray.500" fontSize="1rem">
+                  </Text>
+                  <Text color="gray.500" fontSize="1rem" d={{ base: "none", md: "block" }}>
                     Baca cerita yang ada di ImaginSketch
-                </Text>
+                  </Text>
                 </Box>
               </Box>
             </Link>
@@ -86,7 +86,7 @@ function Header({ siteTitle }) {
                   <Text color="teal.500" fontSize="1.5rem">
                     Pengajuan
                   </Text>
-                  <Text color="gray.500" fontSize="1rem">
+                  <Text color="gray.500" fontSize="1rem" d={{ base: "none", md: "block" }}>
                     Ajukan ceritamu ke ImaginSketch!
                   </Text>
                 </Box>

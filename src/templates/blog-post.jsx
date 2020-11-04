@@ -20,7 +20,7 @@ export default function Template({ data }) {
                 <Box w="100%">
                     <Link to={stories[currentStoryIndex - 1].node.frontmatter.path}>
                         <Button variantColor="teal" variant="solid" leftIcon="chevron-left" w="100%">
-                            <Text d={{ sm: "none", md: "inline" }}>{stories[currentStoryIndex - 1].node.frontmatter.title}</Text>
+                            <Text d={{ base: "none", sm: "none", md: "inline" }}>{stories[currentStoryIndex - 1].node.frontmatter.title}</Text>
                         </Button>
                     </Link>
                 </Box>
@@ -36,7 +36,7 @@ export default function Template({ data }) {
                 <Box w="100%">
                     <Link to={stories[currentStoryIndex + 1].node.frontmatter.path}>
                         <Button variantColor="teal" variant="solid" rightIcon="chevron-right" w="100%">
-                            <Text d={{ sm: "none", md: "inline" }}>{stories[currentStoryIndex + 1].node.frontmatter.title}</Text>
+                            <Text d={{ base: "none", sm: "none", md: "inline" }}>{stories[currentStoryIndex + 1].node.frontmatter.title}</Text>
                         </Button>
                     </Link>
                 </Box>

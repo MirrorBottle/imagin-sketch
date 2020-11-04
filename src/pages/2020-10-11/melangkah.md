@@ -3,7 +3,7 @@ path: "/melangkah"
 date: "2020-10-11"
 title: "Melangkah"
 author: "Bayu Setiawan"
-tags: "Romance, Slife of Life"
+tags: "Romance, Slice of Life"
 ---
 “Permisi, aku ingin satu yang ini.”
 
