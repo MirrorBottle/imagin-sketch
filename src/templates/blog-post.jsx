@@ -9,6 +9,7 @@ import {
     Button,
 } from "@chakra-ui/core"
 import SEO from "../components/seo"
+import { DiscussionEmbed } from "disqus-react"
 
 export default function Template({ data }) {
     const post = data.markdownRemark
@@ -16,6 +17,10 @@ export default function Template({ data }) {
         return new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
     });
     const currentStoryIndex = data.allMarkdownRemark.edges.findIndex(edge => edge.node.frontmatter.path === post.frontmatter.path);
+    const disqusConfig = {
+        shortname: process.env.GATSBY_DISQUS_NAME,
+        config: { identifier: post.frontmatter.path },
+    }
     const Navs = () => (
         <Stack spacing={4} isInline mb={2}>
             {currentStoryIndex !== 0 && (
@@ -62,6 +67,7 @@ export default function Template({ data }) {
                 <Text id="content" fontSize="1.1rem" color="gray.600" dangerouslySetInnerHTML={{ __html: post.html }} />
             </Box>
             <Navs />
+            <DiscussionEmbed {...disqusConfig} />
         </Layout>
 
     )

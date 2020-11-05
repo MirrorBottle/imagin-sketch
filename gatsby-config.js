@@ -5,7 +5,9 @@ module.exports = {
     title: `ImaginSketch`,
     description: `Sebuah tempat untuk menaruh ceritamu`,
     author: `@mirrorbottle`,
+    siteUrl: `https://imagin-sketch.netlify.app/`
   },
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-catch-links`,
@@ -52,7 +54,8 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-offline`
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-sitemap`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
