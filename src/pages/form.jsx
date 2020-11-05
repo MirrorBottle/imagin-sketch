@@ -16,7 +16,7 @@ const FormPage = () => (
         <SEO title="Pengajuan" />
         <Text color="teal.400" fontSize="2.5rem" mb={2} fontWeight="bold">Ajukan Ceritamu!</Text>
         <Text color="gray.600" fontSize="1.1rem" mb={6}>Kamu bisa mengajukan ceritamu dan kami dengan senang hati akan mengeceknya, dan apabila berhasil maka akan kami tampilkan di web ini. Tidak perlu terlalu sempurna, asal tidak mengandung konten dewasa yang <Text d="inline" color="red.500" fontWeight="bold">berlebihan</Text> maka sudah layak 😄</Text>
-        <form method="POST" netlify-honeypot="bot-field" data-netlify="true" name="submission" encType="mutlipart/form-data">
+        <form method="POST" netlify-honeypot="bot-field" data-netlify="true" name="submission" encType="multipart/form-data">
             <input type="hidden" name="bot-field" />
             <input type="hidden" name="form-name" value="submission" />
             <FormControl isRequired>
