@@ -21,22 +21,22 @@ const FormPage = () => (
             <input type="hidden" name="form-name" value="submission" />
             <FormControl isRequired>
                 <FormLabel htmlFor="penName">Nama Pena</FormLabel>
-                <Input isRequired id="penName" type="text" name="penName" placeholder="Nama penamu..." />
+                <input requreid id="penName" type="text" name="penName" placeholder="Nama penamu..." />
             </FormControl>
             <FormControl isRequired mt={6}>
                 <FormLabel htmlFor="title">Judul Karyamu</FormLabel>
-                <Input isRequired id="title" type="text" name="title" placeholder="Judul sangat penting..." />
+                <input required id="title" type="text" name="title" placeholder="Judul sangat penting..." />
             </FormControl>
             <FormControl isRequired mt={6}>
                 <FormLabel htmlFor="tags">Genre atau Tema Ceritamu</FormLabel>
-                <Input isRequired id="tags" type="text" name="tags" placeholder="Ketik genre karyawamu..." />
+                <input required id="tags" type="text" name="tags" placeholder="Ketik genre karyawamu..." />
                 <FormHelperText>
                     Apabila lebih dari satu gunakan "," (koma) sebagai pemisah.
                 </FormHelperText>
             </FormControl>
             <FormControl isRequired mt={6}>
                 <FormLabel htmlFor="file">Berkas Ceritamu (.doc / .md / .pdf)</FormLabel>
-                <Input isRequired id="file" type="file" name="file" placeholder="Judul sangat penting..." />
+                <input required id="file" type="file" name="file" />
             </FormControl>
             <Button variantColor="teal" mt={6} type="submit" w="100%">Ajukan!</Button>
         </form>
