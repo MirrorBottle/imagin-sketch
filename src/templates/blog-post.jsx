@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from "../components/layout";
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
 import {
     Text,
     Box,
@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/core"
 import SEO from "../components/seo"
 import { DiscussionEmbed } from "disqus-react"
-
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 export default function Template({ data }) {
     const post = data.markdownRemark
     const stories = data.allMarkdownRemark.edges.sort((a, b) => {
@@ -22,30 +22,30 @@ export default function Template({ data }) {
         config: { identifier: post.frontmatter.path },
     }
     const Navs = () => (
-        <Stack spacing={4} isInline mb={2}>
+        <Stack spacing={4} isInline mb={6}>
             {currentStoryIndex !== 0 && (
                 <Box w="100%">
-                    <Link to={stories[currentStoryIndex - 1].node.frontmatter.path}>
+                    <AniLink fade to={stories[currentStoryIndex - 1].node.frontmatter.path}>
                         <Button variantColor="teal" variant="solid" leftIcon="chevron-left" w="100%">
                             <Text d={{ base: "none", sm: "none", md: "inline" }}>{stories[currentStoryIndex - 1].node.frontmatter.title}</Text>
                         </Button>
-                    </Link>
+                    </AniLink>
                 </Box>
             )}
             <Box w="100%">
-                <Link to="/stories">
+                <AniLink fade to="/stories">
                     <Button variantColor="teal" variant="solid" w="100%">
                         Kembali
                     </Button>
-                </Link>
+                </AniLink>
             </Box>
             {currentStoryIndex < stories.length - 1 && (
                 <Box w="100%">
-                    <Link to={stories[currentStoryIndex + 1].node.frontmatter.path}>
+                    <AniLink fade to={stories[currentStoryIndex + 1].node.frontmatter.path}>
                         <Button variantColor="teal" variant="solid" rightIcon="chevron-right" w="100%">
                             <Text d={{ base: "none", sm: "none", md: "inline" }}>{stories[currentStoryIndex + 1].node.frontmatter.title}</Text>
                         </Button>
-                    </Link>
+                    </AniLink>
                 </Box>
             )}
         </Stack>

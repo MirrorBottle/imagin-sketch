@@ -16,7 +16,7 @@ import {
   IconButton,
   Box,
 } from "@chakra-ui/core"
-import { Link } from "gatsby";
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 function Header({ siteTitle }) {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = React.useRef();
@@ -40,7 +40,7 @@ function Header({ siteTitle }) {
           </DrawerHeader>
           <DrawerBody>
             <Text fontSize="1.4rem" color="teal.500" fontWeight="bold" textAlign="left">Daftar Halaman</Text>
-            <Link to="/">
+            <AniLink fade to="/">
               <Box borderWidth="1px" mt={3} className="drawer-menu" h="90px" rounded="lg" px={10} d="flex" justifyContent="space-between"
                 alignItems="center">
                 <Box h="100%" w="100%" pl={5} d="flex" flexDirection="column" justifyContent="center">
@@ -52,8 +52,8 @@ function Header({ siteTitle }) {
                   </Text>
                 </Box>
               </Box>
-            </Link>
-            <Link to="/about">
+            </AniLink>
+            <AniLink fade to="/about">
               <Box borderWidth="1px" mt={3} className="drawer-menu" h="90px" rounded="lg" px={10} d="flex" justifyContent="space-between"
                 alignItems="center">
                 <Box h="100%" w="100%" pl={5} d="flex" flexDirection="column" justifyContent="center">
@@ -65,8 +65,8 @@ function Header({ siteTitle }) {
                 </Text>
                 </Box>
               </Box>
-            </Link>
-            <Link to="/stories">
+            </AniLink>
+            <AniLink fade to="/stories">
               <Box borderWidth="1px" mt={3} className="drawer-menu" h="90px" rounded="lg" px={10} d="flex" justifyContent="space-between"
                 alignItems="center">
                 <Box h="100%" w="100%" pl={5} d="flex" flexDirection="column" justifyContent="center">
@@ -78,8 +78,8 @@ function Header({ siteTitle }) {
                   </Text>
                 </Box>
               </Box>
-            </Link>
-            <Link to="/form">
+            </AniLink>
+            <AniLink fade to="/form">
               <Box borderWidth="1px" mt={3} className="drawer-menu" h="90px" rounded="lg" px={10} d="flex" justifyContent="space-between"
                 alignItems="center">
                 <Box h="100%" w="100%" pl={5} d="flex" flexDirection="column" justifyContent="center">
@@ -91,7 +91,7 @@ function Header({ siteTitle }) {
                   </Text>
                 </Box>
               </Box>
-            </Link>
+            </AniLink>
           </DrawerBody>
           <DrawerFooter>
             <Button variant="solid" variantColor="teal" mr={3} onClick={onClose}>

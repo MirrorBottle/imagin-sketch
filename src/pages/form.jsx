@@ -1,6 +1,12 @@
 import React from "react"
 import {
     Text,
+    FormControl,
+    FormLabel,
+    Input,
+    Button,
+    Form,
+    FormHelperText,
 } from "@chakra-ui/core"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,14 +14,32 @@ import SEO from "../components/seo"
 const FormPage = () => (
     <Layout>
         <SEO title="Pengajuan" />
-        <Text color="teal.400" fontSize="1.8rem">
-            <i>
-                "Kurasa aku senang menulis, kisah tragis dengan tangis, ataupun kisah bahagia dengan tawa. Entahlah, hingga kapan aku bisa menulis, jika bisa aku ingin terus melakukannya."
-            </i>
-        </Text>
-        <Text color="teal.400" fontSize="1.8rem" mt={2} fontWeight="bold">
-            <i>-Bukan Perkataanku</i>
-        </Text>
+        <Text color="teal.400" fontSize="2.5rem" mb={2} fontWeight="bold">Ajukan Ceritamu!</Text>
+        <Text color="gray.600" fontSize="1.1rem" mb={6}>Kamu bisa mengajukan ceritamu dan kami dengan senang hati akan mengeceknya, dan apabila berhasil maka akan kami tampilkan di web ini. Tidak perlu terlalu sempurna, asal tidak mengandung konten dewasa yang <Text d="inline" color="red.500" fontWeight="bold">berlebihan</Text> maka sudah layak 😄</Text>
+        <form method="POST" netlify-honeypot="bot-field" data-netlify="true" name="submission">
+            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="form-name" value="submission" />
+            <FormControl isRequired>
+                <FormLabel htmlFor="penName">Nama Pena</FormLabel>
+                <Input isRequired id="penName" type="text" name="penName" placeholder="Nama penamu..." />
+            </FormControl>
+            <FormControl isRequired mt={6}>
+                <FormLabel htmlFor="title">Judul Karyamu</FormLabel>
+                <Input isRequired id="title" type="text" name="title" placeholder="Judul sangat penting..." />
+            </FormControl>
+            <FormControl isRequired mt={6}>
+                <FormLabel htmlFor="tags">Genre atau Tema Ceritamu</FormLabel>
+                <Input isRequired id="tags" type="text" name="tags" placeholder="Ketik genre karyawamu..." />
+                <FormHelperText>
+                    Apabila lebih dari satu gunakan "," (koma) sebagai pemisah.
+                </FormHelperText>
+            </FormControl>
+            <FormControl isRequired mt={6}>
+                <FormLabel htmlFor="title">Berkas Ceritamu (.doc / .md / .pdf)</FormLabel>
+                <Input isRequired id="title" type="file" name="title" placeholder="Judul sangat penting..." />
+            </FormControl>
+            <Button variantColor="teal" mt={6} type="submit" w="100%">Ajukan!</Button>
+        </form>
     </Layout>
 )
 

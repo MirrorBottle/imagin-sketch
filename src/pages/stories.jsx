@@ -1,6 +1,6 @@
 import React from 'react'
 import Layout from "../components/layout";
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import {
     Text,
     Box,
@@ -13,7 +13,7 @@ import {
     Checkbox,
 } from "@chakra-ui/core"
 import SEO from "../components/seo"
-
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 export default class stories extends React.Component {
     state = {
         stories: [],
@@ -68,7 +68,7 @@ export default class stories extends React.Component {
                     <Flex flexWrap="wrap" justifyContent="start" alignItems="center">
                         {stories.map(({ node }) => (
                             <Box w={{ md: "49%", sm: "100%", xs: "100%" }} mr={{ md: 2, sm: 0 }} key={node.id} borderWidth="1px" mt={8} py={5} shadow="lg" className="stories-card" rounded="lg" px={10}>
-                                <Link to={node.frontmatter.path}>
+                                <AniLink fade to={node.frontmatter.path}>
                                     <Text color="teal.500" fontSize="1.7rem" fontWeight="bold" textAlign="left">
                                         {node.frontmatter.title}
                                     </Text>
@@ -81,7 +81,7 @@ export default class stories extends React.Component {
                                         ))}
                                     </Stack>
                                     <Text color="gray.500" fontSize="1rem" textAlign="left" mt={3}>{node.excerpt}</Text>
-                                </Link>
+                                </AniLink>
                             </Box>
                         ))}
                     </Flex>
