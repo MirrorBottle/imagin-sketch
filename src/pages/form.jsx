@@ -36,7 +36,7 @@ const FormPage = () => (
             </FormControl>
             <FormControl isRequired mt={6}>
                 <FormLabel htmlFor="file">Berkas Ceritamu (.doc / .md / .pdf)</FormLabel>
-                <input required id="file" type="file" name="file" />
+                <input required id="file" type="file" name="story" />
             </FormControl>
             <Button variantColor="teal" mt={6} type="submit" w="100%">Ajukan!</Button>
         </form>
