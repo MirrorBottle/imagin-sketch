@@ -35,8 +35,8 @@ const FormPage = () => (
                 </FormHelperText>
             </FormControl>
             <FormControl isRequired mt={6}>
-                <FormLabel htmlFor="title">Berkas Ceritamu (.doc / .md / .pdf)</FormLabel>
-                <Input isRequired id="title" type="file" name="title" placeholder="Judul sangat penting..." />
+                <FormLabel htmlFor="file">Berkas Ceritamu (.doc / .md / .pdf)</FormLabel>
+                <Input isRequired id="file" type="file" name="file" placeholder="Judul sangat penting..." />
             </FormControl>
             <Button variantColor="teal" mt={6} type="submit" w="100%">Ajukan!</Button>
         </form>
