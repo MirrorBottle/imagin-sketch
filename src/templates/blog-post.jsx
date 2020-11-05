@@ -12,7 +12,9 @@ import SEO from "../components/seo"
 
 export default function Template({ data }) {
     const post = data.markdownRemark
-    const stories = data.allMarkdownRemark.edges;
+    const stories = data.allMarkdownRemark.edges.sort((a, b) => {
+        return new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
+    });
     const currentStoryIndex = data.allMarkdownRemark.edges.findIndex(edge => edge.node.frontmatter.path === post.frontmatter.path);
     const Navs = () => (
         <Stack spacing={4} isInline mb={2}>
