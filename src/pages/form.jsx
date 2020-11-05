@@ -21,7 +21,7 @@ const FormPage = () => (
             <input type="hidden" name="form-name" value="submission" />
             <FormControl isRequired>
                 <FormLabel htmlFor="penName">Nama Pena</FormLabel>
-                <input isRequired id="penName" type="text" name="penName" placeholder="Nama penamu..." />
+                <Input isRequired id="penName" type="text" name="penName" placeholder="Nama penamu..." />
             </FormControl>
             <FormControl isRequired mt={6}>
                 <FormLabel htmlFor="title">Judul Karyamu</FormLabel>
