@@ -78,7 +78,7 @@ export default function StoryTemplate({ data }) {
                 ))}
             </Stack>
             <Box mt={8} >
-                <Text id="content" fontSize="1.1rem" color="gray.600" dangerouslySetInnerHTML={{ __html: post.html }} />
+                <Text id="content" fontSize="1.2rem" color="gray.600" dangerouslySetInnerHTML={{ __html: post.html }} />
             </Box>
             <Navs />
             <DiscussionEmbed {...disqusConfig} />
