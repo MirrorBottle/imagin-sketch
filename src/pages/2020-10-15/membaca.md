@@ -4,6 +4,7 @@ date: "2020-10-15"
 title: "Membaca"
 author: "Bayu Setiawan"
 tags: "Mystery, School Life, Changed POV"
+image: ""
 ---
 Akan ada tiga orang di tempat ini, termasuk diriku, si Penyihir sudah menempati posisinya, sepertinya ksatria tampan itu terlambat.
 

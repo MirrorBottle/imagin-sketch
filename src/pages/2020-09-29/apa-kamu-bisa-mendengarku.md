@@ -4,6 +4,7 @@ date: "2020-09-29"
 title: "Apa Kamu bisa Mendengarku"
 author: "Bayu Setiawan"
 tags: "Romance"
+image: ""
 ---
 “Aku pergi dulu.”
 

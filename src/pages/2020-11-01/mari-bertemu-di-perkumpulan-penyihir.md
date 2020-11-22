@@ -4,6 +4,7 @@ date: "2020-11-01"
 title: "Mari Bertemu di Perkumpulan Penyihir"
 author: "Bayu Setiawan"
 tags: "Fantasy, Changed POV"
+image: ""
 ---
 
 “Apa anda yakin tidak diberikan alamat yang salah?”

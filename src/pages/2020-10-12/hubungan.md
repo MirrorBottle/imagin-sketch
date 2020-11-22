@@ -4,6 +4,7 @@ date: "2020-10-12"
 title: "Hubungan"
 author: "Bayu Setiawan"
 tags: "Romance, Married Life"
+image: ""
 ---
 Bibirnya merayap dari tulang selangkaku menuju leher, segera aku mendorong bahu tegapnya seketika hisapan yang kembali membangkitkan gairah itu terasa.
 

@@ -4,6 +4,7 @@ date: "2020-10-08"
 title: "Riot"
 author: "Bayu Setiawan"
 tags: "Romance"
+image: ""
 ---
 “Bagaimana aku bisa berakhir di sini.”
 

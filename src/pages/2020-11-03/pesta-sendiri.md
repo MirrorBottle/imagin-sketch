@@ -4,6 +4,7 @@ date: "2020-11-03"
 title: "Pesta Sendiri"
 author: "Bayu Setiawan"
 tags: "Gore, Horror, Mystery"
+image: ""
 ---
 “Lagi?” aku langsung kembali memasukkan ponsel ke dalam saku celana tanpa membukanya.
 

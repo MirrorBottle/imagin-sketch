@@ -4,6 +4,7 @@ date: "2020-10-20"
 title: "Benang Hitam"
 author: "Bayu Setiawan"
 tags: "Romance, Depression, Changed POV"
+image: ""
 ---
 “Apa aku mengganggu?”
 

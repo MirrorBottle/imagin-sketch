@@ -3,7 +3,7 @@ const path = require('path')
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions
 
-    const postTemplate = path.resolve('src/templates/blog-post.jsx')
+    const postTemplate = path.resolve('src/templates/story-template.jsx')
 
     return graphql(`
         {
@@ -16,6 +16,7 @@ exports.createPages = ({ actions, graphql }) => {
                             title
                             date
                             author
+                            image
                         }
                     }
                 }

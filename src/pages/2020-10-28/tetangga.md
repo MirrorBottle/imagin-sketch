@@ -4,6 +4,7 @@ date: "2020-10-28"
 title: "Tetangga"
 author: "Bayu Setiawan"
 tags: "Slice of Life"
+image: ""
 ---
 “Sudah makan?”
 

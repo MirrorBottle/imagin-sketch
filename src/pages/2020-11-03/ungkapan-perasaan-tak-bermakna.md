@@ -4,6 +4,7 @@ date: "2020-11-03"
 title: "Ungkapan Perasaan tak Bermakna"
 author: "Bayu Setiawan"
 tags: "Old Story"
+image: ""
 ---
 Kulangkahkan kaki ini di atas keringnya rerumputan, layu dan gersang tanpa ada tetesan hujan. Kugapai angin yang tak terlihat dan tak tersentuh, layaknya angan-angan yang terbang tanpa bisa kucapai. Kunyanyikan lagu sendu ini kepada bunga-bunga yang kuncup tertutup, agar mereka dapat mekar dengan indah layaknya kesedihan yang kurasakan sekarang. Lagu sendu yang penuh akan pilu dan rindu yang menjadi kenangan masa laluku, dengan melodi lembut yang tebentuk dari tipu dayamu.
 

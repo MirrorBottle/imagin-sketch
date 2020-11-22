@@ -4,6 +4,7 @@ date: "2020-10-05"
 title: "Boneka"
 author: "Bayu Setiawan"
 tags: "Gore, Horror, Mary"
+image: ""
 ---
 Tempat ini hanya memberiku rasa mual tidak tertahan sejak aku turun dari mobil. Menyadari keterlambatanku, segera aku mempercepat langkah menuju empat orang di sana. Tidak ada wajah baru kali ini, kecuali satu yang memegang senapan laras panjang di hadapanku. Wai, Dee, Jy, dan—
 

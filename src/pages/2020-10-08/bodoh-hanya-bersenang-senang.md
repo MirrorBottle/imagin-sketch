@@ -4,6 +4,7 @@ date: "2020-10-08"
 title: "Bodoh Hanya Bersenang-senang"
 author: "Bayu Setiawan"
 tags: "Slice of Life, Asynchronus Story"
+image: ""
 ---
 
 “Apa yang ingin kamu lakukan, Bodoh?”

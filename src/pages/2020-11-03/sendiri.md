@@ -4,6 +4,7 @@ date: "2020-11-03"
 title: "Sendiri"
 author: "Bayu Setiawan"
 tags: "Old Story, Romance"
+image: ""
 ---
 
 Di sekelilingku, di sekitarku, di hadapanku maupun belakangku, semua tampak sama. Udara kering yang berhembus melewatiku, membawa bau bubuk mesiu dan bau karat yang menyengat. Tetapi bau karat yang kucium bukanlah dari besi tua yang ada di dekatku, melainkan dari tumpukan jasad berdarah yang mengelilingiku. Apakah hanya aku yang melihat ini? Apa hanya diriku seorang?

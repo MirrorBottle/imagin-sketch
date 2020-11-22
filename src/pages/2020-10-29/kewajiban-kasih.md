@@ -4,6 +4,7 @@ date: "2020-10-29"
 title: "Kewajiban Kasih"
 author: "Bayu Setiawan"
 tags: "Slice of Life, Romance, Changed POV, Mary"
+image: ""
 ---
 “KENAPA?!”
 

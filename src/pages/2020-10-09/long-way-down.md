@@ -4,6 +4,7 @@ date: "2020-10-09"
 title: "Long Way Down"
 author: "Bayu Setiawan"
 tags: "Slice of Life"
+image: ""
 ---
 Aku membuka pintu, “Apa aku menganggu?”
 

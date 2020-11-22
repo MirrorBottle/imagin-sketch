@@ -5,13 +5,14 @@ import {
     Text,
     Box,
     Stack,
+    Image,
     Badge,
     Button,
 } from "@chakra-ui/core"
 import SEO from "../components/seo"
 import { DiscussionEmbed } from "disqus-react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-export default function Template({ data }) {
+export default function StoryTemplate({ data }) {
     const post = data.markdownRemark
     const stories = data.allMarkdownRemark.edges.sort((a, b) => {
         return new Date(b.node.frontmatter.date) - new Date(a.node.frontmatter.date)
@@ -53,7 +54,20 @@ export default function Template({ data }) {
     return (
         <Layout>
             <SEO title={post.frontmatter.title} />
+            {console.log(post.frontmatter)}
             <Navs />
+            {post.frontmatter.image !== "" && (
+                <Image
+                    w="100%"
+                    h="24rem"
+                    backgroundSize="cover"
+                    objectFit="cover"
+                    rounded="lg"
+                    src={post.frontmatter.image}
+                    alt="Segun Adebayo"
+                    mb={8}
+                />
+            )}
             <Text color="teal.400" fontSize="2.5rem" fontWeight="bold">{post.frontmatter.title}</Text>
             <Text color="gray.500" fontSize="1.3rem" textAlign="left">
                 Ditulis oleh <Text d="inline" color="teal.500">{post.frontmatter.author}</Text>
@@ -85,6 +99,7 @@ export const PostQuery = graphql`
                         date
                         author
                         tags
+                        image
                     }
                     excerpt
                 }
@@ -98,6 +113,7 @@ export const PostQuery = graphql`
                 author
                 date
                 tags
+                image
             }
         }
     }

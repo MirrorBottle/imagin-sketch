@@ -4,6 +4,7 @@ date: "2020-11-03"
 title: "Kita"
 author: "Bayu Setiawan"
 tags: "Old Story"
+image: ""
 ---
 
 Di balik senyuman, sebuah kemalangan merangsang dan menjalar.

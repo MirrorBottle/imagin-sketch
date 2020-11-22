@@ -4,6 +4,7 @@ date: "2020-11-02"
 title: "Menjadi Diriku"
 author: "Bayu Setiawan"
 tags: "Slice of Life, Romance, Changed POV"
+image: ""
 ---
 “Maaf… apa kamu bisa mengulanginya?”
 

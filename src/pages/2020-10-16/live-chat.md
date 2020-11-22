@@ -4,6 +4,7 @@ date: "2020-10-16"
 title: "Live Chat"
 author: "Bayu Setiawan"
 tags: "Horror, Mystery"
+image: ""
 ---
 “Terima kasih semuanya ❤❤❤❤” – NekoNeko (streamer)
 

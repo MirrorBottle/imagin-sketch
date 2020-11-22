@@ -4,6 +4,7 @@ date: "2020-11-03"
 title: "Sebuah Meja Kayu"
 author: "Bayu Setiawan"
 tags: "Old Story"
+image: ""
 ---
 Tak ada suara yang terdengar, hanya kesunyian menjelang senja yang mengisi kekosongan ruang. Sesekali gesekan antara kulit yang membalik halaman buku terdengar, dari arah ujung ruangan yang bermandikan cahaya jingga. Ia memandang kosong, entah apa yang dilihat oleh kedua mata itu dengan sedikit sayu. Di luar jendela, masih ada beberapa orang yang belum meninggalkan tempat ini. Tawa sayup terdengar di antara mereka, dan ia tersenyum tanpa alasan yang pasti. Suara kertas kembali terdengar, jari-jari lentiknya membalik halaman yang telah ia baca.
 

@@ -4,6 +4,7 @@ date: "2020-11-14"
 title: "Kelopak Terakhir"
 author: "Bayu Setiawan"
 tags: "Slice of Life"
+image: ""
 ---
 “Sebenarnya ini tidak terlalu bagus.”
 
